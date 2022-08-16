@@ -26,6 +26,21 @@
     -->
     <title>Ore - Chaniru.lk</title>
   </head>
+  
+<script>
+
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onkeydown = function (e) {
+
+        if(e.keyCode == 123) {
+            return false;
+        }
+        if(e.keyCode == 122) {
+            return false;
+        }
+    }
+ 
+</script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
